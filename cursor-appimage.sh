@@ -26,9 +26,6 @@ chmod +x ./quick-sharun
 	/usr/lib/libfreeblpriv3.so \
 	/usr/lib/pkcs11/*
 
-# Weird
-ln -s ../bin/chrome ./AppDir/shared/bin/exe
-
 # MAKE APPIMAGE WITH URUNTIME
 wget --retry-connrefused --tries=30 "$URUNTIME" -O ./uruntime2appimage
 chmod +x ./uruntime2appimage
