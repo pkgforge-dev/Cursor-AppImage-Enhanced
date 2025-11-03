@@ -1,0 +1,2 @@
+# Cursor-AppImage
+WIP
