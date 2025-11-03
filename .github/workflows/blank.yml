@@ -60,7 +60,7 @@ jobs:
         - name: Release Artifacts
           uses: softprops/action-gh-release@v2.4.0
           with:
-            name: "Cusror: ${{ env.VERSION }}"
+            name: "Cursor: ${{ env.VERSION }}"
             tag_name: "${{ env.VERSION }}@${{ env.DATE }}"
             prerelease: false
             draft: false
