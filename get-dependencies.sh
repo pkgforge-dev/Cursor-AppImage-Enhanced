@@ -30,10 +30,9 @@ chmod +x ./get-debloated-pkgs.sh
 
 echo "Getting Cursor..."
 echo "---------------------------------------------------------------"
-
 case "$ARCH" in # they use AMD64 and ARM64 for the deb links
-	x86_64)  deb_arch=amd64
-	aarch64) deb_arch=arm64
+	x86_64)  deb_arch=amd64;;
+	aarch64) deb_arch=arm64;;
 esac
 
 DEB_LINK=$(
